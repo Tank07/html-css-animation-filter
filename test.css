@@ -32,6 +32,19 @@
 }
 
 .ex-7-img:hover{
-    filter: hue-rotate(90deg) blur(5px);;
+    filter: hue-rotate(90deg) blur(5px);
     transition: 3s;
+}
+
+.ex-8-img:hover{
+    filter: hue-rotate(90deg) contrast(200%);
+    border-radius: 40px;
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    filter: sepia(50%) drop-shadow(16px 16px 20px blue);
+    border-radius: 40px;
+    transform: scale(1.5);
+    transition: 4s;
 }
