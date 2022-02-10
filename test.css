@@ -3,3 +3,8 @@
     transition: 3s;
 }
 
+.ex-2-square:active{
+    width: 400px;
+    transition: 4s;
+
+}
