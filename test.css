@@ -18,3 +18,12 @@
     height: 0px;
     transition: 3s;
 }
+
+.ex-5-square:hover{
+    transform: scale(1.5);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
+
