@@ -48,5 +48,29 @@
     transition: 4s;
 }
 
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
 
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
+}
 
+.ex-11-icon:hover{
+    animation: youspinmerightround 3s linear;
+}
+@keyframes youspinmerightround{
+    0%{
+        transform: rotate(0);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
