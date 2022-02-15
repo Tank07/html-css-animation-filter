@@ -14,8 +14,7 @@
 }
 
 .ex-4-square:hover{
-    width: 0px;
-    height: 0px;
+    opacity: 0;
     transition: 3s;
 }
 
@@ -43,8 +42,11 @@
 }
 
 .ex-9-img:hover{
-    filter: sepia(50%) drop-shadow(16px 16px 20px blue);
+    filter: sepia(100%) drop-shadow(16px 16px 20px blue);
     border-radius: 40px;
     transform: scale(1.5);
     transition: 4s;
 }
+
+
+
